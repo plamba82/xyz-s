@@ -1,0 +1,25 @@
+video{
+    display: inline-block;
+    background-color:grey;
+    height: 350px;
+    width: 350px;
+}
+canvas{
+    display:inline-block;
+    background-color: lightgray;
+}
+.blur{
+    filter: blur(30px);
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+.sepia{
+    filter: sepia(60%);
+}
+.saturate{
+    filter: saturate(60%);
+}
+.brightness{
+    filter: brightness(150%);
+}
